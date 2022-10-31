@@ -8,12 +8,12 @@ public class AppLibrary{
 
         int menu;
         
-        //Referencia para o objeto da classe 
+        //Referencia para o objeto da classe// 
         BookLibrary objBook;
 
         String title, author, genre;
         Float price;
-        
+          
         do{
             showMenu();
             menu = input.nextInt();

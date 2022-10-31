@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Collection {
     
-    private static ArrayList<BookLibrary> listBooks = new ArrayList<>();//Atributo
+    private static ArrayList<BookLibrary> listBooks = new ArrayList<>();//Atributo//
 
-    //method GET devolve o array list tipado em livro livraria
+    //method GET devolve o array list tipado em livro livraria//
     public static ArrayList<BookLibrary> getlistBooks(){
         return listBooks;
     }
